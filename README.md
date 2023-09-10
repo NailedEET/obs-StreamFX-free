@@ -10,3 +10,5 @@ No, L Xaymar
 ## Further Links
 * [Wiki](https://github.com/Xaymar/obs-StreamFX/wiki)
 * [Installation Guide](https://github.com/xaymar/obs-streamfx/wiki/Installation)
+* See BUILDING.md
+* See CONTRIBUTING.md
