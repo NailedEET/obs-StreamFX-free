@@ -2,7 +2,7 @@
 # StreamFX
 Bring your setup to the modern day with StreamFX! With several super fast filters, new ways to build your scenes, and new encoders you can now take your stream even further. Create cool new scenes with 3D effects, make something glow or have a shadow, or blur out content - the choice is yours!
 
-[![CI](https://github.com/Xaymar/obs-StreamFX/actions/workflows/main.yml/badge.svg)](https://github.com/Xaymar/obs-StreamFX/actions) [![Crowdin](https://badges.crowdin.net/obs-stream-effects/localized.svg)](https://crowdin.com/project/obs-stream-effects)
+[![CI](https://github.com/Xaymar/obs-StreamFX/actions/workflows/main.yml/badge.svg)](https://github.com/DAMIOSKIDEV/obs-StreamFX-free/actions) [![Crowdin](https://badges.crowdin.net/obs-stream-effects/localized.svg)](https://crowdin.com/project/obs-stream-effects)
 
 # Support the development of StreamFX!
 No, L Xaymar
