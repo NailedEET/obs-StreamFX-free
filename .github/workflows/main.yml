@@ -341,26 +341,19 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        runner: [ "ubuntu-22.04", "ubuntu-20.04" ]
+        runner: [ "ubuntu-22.04" ]
         compiler: [ "GCC-12", "GCC-11", "Clang-16" ]
-        qt: [ 5, 6 ]
+        qt: [ 6 ]
         CMAKE_GENERATOR: [ "Ninja Multi-Config" ]
         exclude:
           - runner: "ubuntu-22.04"
             qt: 5
           - runner: "ubuntu-22.04"
             compiler: "GCC-11"
-          - runner: "ubuntu-20.04"
-            qt: 6
-          - runner: "ubuntu-20.04"
-            compiler: "GCC-12"
         include:
           - runner: "ubuntu-22.04"
             name: "Ubuntu 22.04"
             package_name: "ubuntu22.04-qt6"
-          - runner: "ubuntu-20.04"
-            name: "Ubuntu 20.04"
-            package_name: "ubuntu20.04-qt5"
     runs-on: "${{ matrix.runner }}"
     name: "${{ matrix.name }} (${{ matrix.compiler }}, Qt${{ matrix.qt }})"
     env:
