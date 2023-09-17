@@ -5,7 +5,7 @@ Bring your setup to the modern day with StreamFX! With several super fast filter
 [![CI](https://github.com/DAMIOSKIDEV/obs-StreamFX-free/actions/workflows/main.yml/badge.svg)](https://github.com/DAMIOSKIDEV/obs-StreamFX-free/actions) [![Crowdin](https://badges.crowdin.net/obs-stream-effects/localized.svg)](https://crowdin.com/project/obs-stream-effects)
 
 # Support the development of StreamFX!
-No, L Xaymar
+![No, L Xaymar](https://www.reddit.com/r/obs/comments/13gj38q/moving_on_with_streamfx_without_xaymars/)
 
 ## Further Links
 * [Wiki](https://github.com/Xaymar/obs-StreamFX/wiki)
