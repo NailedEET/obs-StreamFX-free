@@ -170,7 +170,7 @@ jobs:
     - name: "Packaging: Install InnoSetup"
       if: startsWith( matrix.runner, 'windows' )
       run: |
-        curl "-kL" "https://cdn.xaymar.com/ci/innosetup-6.2.1.exe" "-f" "--retry" "5" "-o" "inno.exe"
+        curl "-kL" "https://cdn.damioski.de/streamfx/innosetup-6.2.1.exe" "-f" "--retry" "5" "-o" "inno.exe"
         .\inno.exe /VERYSILENT /SP- /SUPPRESSMSGBOXES /NORESTART
     - name: "Packaging"
       shell: cmd
@@ -322,7 +322,7 @@ jobs:
     - name: 'Packaging: Install Packages'
       shell: bash
       run: |
-        curl -kL https://cdn.xaymar.com/ci/Packages-1.2.10.dmg -f --retry 5 -o "Packages.dmg"
+        curl -kL https://cdn.damioski.de/streamfx/Packages-1.2.10.dmg -f --retry 5 -o "Packages.dmg"
         sudo hdiutil attach ./Packages.dmg
         pushd /Volumes/Packages*
         sudo installer -pkg ./Install\ Packages.pkg -target /
